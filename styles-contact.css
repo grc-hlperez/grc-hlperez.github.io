@@ -61,7 +61,7 @@ html, body {
   padding: 0;
   margin: 0;
   background: url(images/bricks_bg.jpg) 
-	center center fixed no-repeat;
+		center center fixed no-repeat;
 	background-size: cover;
 	
 }
@@ -87,6 +87,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
+	text-align: center;
 }
 
 h2 {
@@ -98,6 +99,7 @@ h2 {
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	text-align: center;
 }
 
 p {
@@ -105,6 +107,7 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
+	text-align: center;
 }
     
 nav{
