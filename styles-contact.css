@@ -79,7 +79,7 @@ html, body {
 #logo {
     margin-bottom: 16px;
 	border: 3px dashed red;
-	align-content: center
+	align-self: center
 }
 
 h1 {
