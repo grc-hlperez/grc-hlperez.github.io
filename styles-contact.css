@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/nattu-adnan-u9WSxzWzAKc-unsplash.jpg) 
 		center center fixed no-repeat;
 	background-size: cover;
 	
@@ -138,5 +138,5 @@ a{
 
 a:hover{
 	color:black;
-	background:pink;
+	background:rgba(0, 150, 178, .75);
 }
