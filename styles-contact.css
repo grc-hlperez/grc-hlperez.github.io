@@ -72,12 +72,11 @@ html, body {
     margin: 100px auto;
  	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 64px;
+    margin-bottom: 156px;
 	border: 3px dashed red;
 	align-self: center
 }
@@ -130,7 +129,7 @@ nav a{
 }
 
 a{
-	color:darkcyan;
+	color:rgb(16, 122, 192);
 	text-decoration: none;
 	font-weight: bold;
 }
