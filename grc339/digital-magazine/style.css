@@ -7,9 +7,18 @@ img {
     display: block;
 }
 
+@font-face {
+    font-family: finish;
+    src: url(fFinish\ 2.ttf);
+}
+
 div.container, div.home-container {
     margin: auto;
     max-width: 45em;
+}
+
+body {
+    background-image: url(background2.jpg);
 }
 
 h1 {
@@ -23,6 +32,7 @@ h2 {
     font-weight: 600;
     padding-top: .2em;
     margin-left: .5rem;
+    font-family: finish;
 }
 
 article h2 {
@@ -46,7 +56,9 @@ a {
 p {
     color: #000000;
     padding-bottom: 2em;
-    font-family: sans-serif;
+    font-family: "pt-serif", serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.2;
     margin-left: .5rem;
 }
@@ -70,7 +82,7 @@ figcaption {
 }
 
 nav {
-    font-family: sans-serif;
+    font-family: finish;
     font-weight: 600;
     padding: 0em 0.5em 1em;
 }
@@ -90,12 +102,13 @@ footer {
     color: #ffffff;
     padding: .5rem;
     font-family: sans-serif;
+
     box-sizing: border-box;
 }
 
 aside {
     padding: 1em;
-    background-color: rgb(183, 188, 239);
+    background-image: url(background2.jpg);
 }
 
 aside h2 {
