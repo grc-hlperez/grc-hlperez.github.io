@@ -40,6 +40,10 @@ h2 {
     font-family: finish;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 article h2 {
     font-size: 3em;
 }
@@ -115,6 +119,34 @@ footer {
     font-family: finish;
 
     box-sizing: border-box;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 1 0 25em;
+	box-sizing: border-box;
+}
+
+.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em 0 1em;
+}
+
+.personal-info ul li label {
+	flex: 0 0 8em;
+}
+
+.newsletter ul{
+	display: flex;
+	flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+
+.newsletter ul li {
+	flex: 1 0 15em;
 }
 
 aside.home {
@@ -296,5 +328,11 @@ input.gallery {
 
     section.secondary a p {
         flex: 0 0 4em;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    html, body {
+        color:
     }
 }
