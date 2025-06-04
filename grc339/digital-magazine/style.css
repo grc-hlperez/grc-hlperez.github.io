@@ -332,7 +332,39 @@ input.gallery {
 }
 
 @media screen and (prefers-color-scheme: dark) {
-    html, body {
-        color:
+    body {
+        background-image: url(background5.jpg);
     }
+
+    section {
+        background-color: #000000b6;
+    }
+
+    p {
+        color: #ffffff;
+    }
+
+    label {
+        color: #ffffff;
+    }
+
+    svg {
+        filter: contrast(100%);
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    h1 {  
+        background-image: url("FlurryLogoalt.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;
+        margin-top: 1rem;
+        }
+        
+    h1 img {
+        opacity: 0;
+    }    
+
 }
